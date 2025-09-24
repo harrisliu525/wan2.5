@@ -787,8 +787,8 @@
       "title": "Wan2.5：原生音画同步的电影级 AI 视频",
       "description": "用一句话生成 10 秒 1080P 影像，画面、配音与字幕一体成型，助你高效讲好品牌故事。",
       "introduction": "Wan2.5 预览版现已开放",
-      "primary": "加入候补名单",
-      "secondary": "查看示例"
+      "primary": "前往通义万相体验",
+      "secondary": "打开造点示例集"
     },
     "logocloud": {
       "title": "创作者与合作伙伴正在体验 Wan2.5"
@@ -1163,16 +1163,16 @@
       }
     },
     "calltoaction": {
-      "title": "让 Wan2.5 成为你的下一个爆款故事",
-      "description": "和全球创作者一起定义 AI 视频的新范式。",
-      "primaryButton": "加入候补名单",
-      "secondaryButton": "观看示例",
-      "primaryHref": "/#coming-soon",
-      "secondaryHref": "/#video-demo",
-      "officialLabel": "官方入口",
+      "title": "直接体验 Wan2.5 官方通道",
+      "description": "通过通义万相生成器与造点万向工作室，即刻查看模型表现。",
+      "primaryButton": "打开通义万相生成器",
+      "secondaryButton": "访问造点万向",
+      "primaryHref": "https://tongyi.aliyun.com/wan/generate",
+      "secondaryHref": "https://zaodian.quark.cn",
+      "officialLabel": "更多官方体验入口",
       "officialLinks": {
         "zaodian": "造点 · 万向工作室",
-        "tongyi": "通义万向生成页"
+        "tongyi": "通义 Wan2.5 生成器"
       },
       "disclaimer": "wan-2.5.video 为独立第三方模型服务，与阿里云及 Wan2.5 官方团队无直接隐归关系。"
     },

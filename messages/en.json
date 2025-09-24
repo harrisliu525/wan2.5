@@ -787,8 +787,8 @@
       "title": "Wan2.5: cinematic AI video with native audio",
       "description": "Turn your prompts into 10-second 1080p stories with lip-synced voices, multilanguage delivery, and confident motion control.",
       "introduction": "Now previewing Wan2.5",
-      "primary": "Join the waitlist",
-      "secondary": "See it in action"
+      "primary": "Open Tongyi Wan generator",
+      "secondary": "Visit Zaodian showcase"
     },
     "logocloud": {
       "title": "Featured by creators and partners exploring Wan2.5"
@@ -1163,13 +1163,13 @@
       }
     },
     "calltoaction": {
-      "title": "Bring Wan2.5 to your next launch",
-      "description": "Join thousands of creators shaping the future of AI-native video storytelling.",
-      "primaryButton": "Join the waitlist",
-      "secondaryButton": "Watch the demo",
-      "primaryHref": "/#coming-soon",
-      "secondaryHref": "/#video-demo",
-      "officialLabel": "Official Wan2.5 portals",
+      "title": "Jump into the official Wan2.5 demos",
+      "description": "Use the Tongyi Wan generator or Zaodian showcase to see how the model performs right now.",
+      "primaryButton": "Open Tongyi Wan generator",
+      "secondaryButton": "Visit Zaodian showcase",
+      "primaryHref": "https://tongyi.aliyun.com/wan/generate",
+      "secondaryHref": "https://zaodian.quark.cn",
+      "officialLabel": "Official Wan2.5 entry points",
       "officialLinks": {
         "zaodian": "Zaodian Wanxiang Studio",
         "tongyi": "Tongyi Wan generator"

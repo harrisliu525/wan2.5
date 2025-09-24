@@ -29,8 +29,8 @@ const transitionVariants = {
 export default function HeroSection() {
   const t = useTranslations('HomePage.hero');
   const linkIntroduction = 'https://wan.video/';
-  const linkPrimary = '/#coming-soon';
-  const linkSecondary = '/#video-demo';
+  const linkPrimary = 'https://tongyi.aliyun.com/wan/generate';
+  const linkSecondary = 'https://zaodian.quark.cn';
 
   return (
     <>
@@ -147,3 +147,4 @@ export default function HeroSection() {
     </>
   );
 }
+
