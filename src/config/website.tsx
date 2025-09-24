@@ -22,7 +22,7 @@ export const websiteConfig: WebsiteConfig = {
     images: {
       ogImage: '/og.png',
       logoLight: '/logo.png',
-      logoDark: '/logo-dark.png',
+      logoDark: '/logo.png',
     },
     social: {
       github: 'https://wan-25.video',
