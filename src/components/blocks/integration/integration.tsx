@@ -1,24 +1,38 @@
-import { HeaderSection } from '@/components/layout/header-section';
-import {
-  Gemini,
-  GooglePaLM,
-  MagicUI,
-  MediaWiki,
-  Replit,
-  VSCodium,
-} from '@/components/tailark/logos';
+﻿import { HeaderSection } from '@/components/layout/header-section';
 import { Button } from '@/components/ui/button';
-import { Card } from '@/components/ui/card';
 import { LocaleLink } from '@/i18n/navigation';
-import { ChevronRight } from 'lucide-react';
+import { Film, Languages, Sparkles, AudioWaveform } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import type * as React from 'react';
+
+const cards = [
+  {
+    icon: Film,
+    translationKey: 'item-1',
+    link: '/#use-cases',
+  },
+  {
+    icon: AudioWaveform,
+    translationKey: 'item-2',
+    link: '/#video-demo',
+  },
+  {
+    icon: Sparkles,
+    translationKey: 'item-3',
+    link: '/#specs',
+  },
+  {
+    icon: Languages,
+    translationKey: 'item-4',
+    link: '/#faqs',
+  },
+] as const;
 
 export default function IntegrationSection() {
   const t = useTranslations('HomePage.integration');
 
   return (
-    <section id="integration" className="px-4 py-16">
+    <section id="highlights" className="px-4 py-16">
       <div className="mx-auto max-w-5xl">
         <HeaderSection
           title={t('title')}
@@ -28,48 +42,17 @@ export default function IntegrationSection() {
           descriptionAs="p"
         />
 
-        <div className="mt-12 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          <IntegrationCard
-            title={t('items.item-1.title')}
-            description={t('items.item-1.description')}
-          >
-            <Gemini />
-          </IntegrationCard>
-
-          <IntegrationCard
-            title={t('items.item-2.title')}
-            description={t('items.item-2.description')}
-          >
-            <Replit />
-          </IntegrationCard>
-
-          <IntegrationCard
-            title={t('items.item-3.title')}
-            description={t('items.item-3.description')}
-          >
-            <MagicUI />
-          </IntegrationCard>
-
-          <IntegrationCard
-            title={t('items.item-4.title')}
-            description={t('items.item-4.description')}
-          >
-            <VSCodium />
-          </IntegrationCard>
-
-          <IntegrationCard
-            title={t('items.item-5.title')}
-            description={t('items.item-5.description')}
-          >
-            <MediaWiki />
-          </IntegrationCard>
-
-          <IntegrationCard
-            title={t('items.item-6.title')}
-            description={t('items.item-6.description')}
-          >
-            <GooglePaLM />
-          </IntegrationCard>
+        <div className="mt-12 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          {cards.map(({ icon: Icon, translationKey, link }) => (
+            <IntegrationCard
+              key={translationKey}
+              title={t(`items.${translationKey}.title`)}
+              description={t(`items.${translationKey}.description`)}
+              link={link}
+            >
+              <Icon className="size-8" />
+            </IntegrationCard>
+          ))}
         </div>
       </div>
     </section>
@@ -90,13 +73,13 @@ const IntegrationCard = ({
   const t = useTranslations('HomePage.integration');
 
   return (
-    <Card className="p-6 bg-transparent hover:bg-accent dark:hover:bg-card">
-      <div className="relative">
-        <div className="*:size-10">{children}</div>
+    <div className="p-6 bg-transparent hover:bg-accent dark:hover:bg-card rounded-xl border">
+      <div className="relative flex flex-col gap-4">
+        <div className="text-primary">{children}</div>
 
-        <div className="space-y-2 py-6">
+        <div className="space-y-2">
           <h3 className="text-base font-medium">{title}</h3>
-          <p className="text-muted-foreground line-clamp-2 text-sm">
+          <p className="text-muted-foreground line-clamp-4 text-sm">
             {description}
           </p>
         </div>
@@ -108,13 +91,11 @@ const IntegrationCard = ({
             size="sm"
             className="gap-1 pr-2 shadow-none"
           >
-            <LocaleLink href={link}>
-              {t('learnMore')}
-              <ChevronRight className="ml-0 !size-3.5 opacity-50" />
-            </LocaleLink>
+            <LocaleLink href={link}>{t('learnMore')}</LocaleLink>
           </Button>
         </div>
       </div>
-    </Card>
+    </div>
   );
 };
+

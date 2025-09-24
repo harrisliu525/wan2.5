@@ -1,7 +1,7 @@
-import { notFound } from 'next/navigation';
-import type { Locale } from 'next-intl';
-import type { Metadata } from 'next';
 import type { NextPageProps } from '@/types/next-page-props';
+import type { Metadata } from 'next';
+import type { Locale } from 'next-intl';
+import { notFound } from 'next/navigation';
 
 export async function generateMetadata({
   params,

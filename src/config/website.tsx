@@ -1,11 +1,11 @@
-import { PaymentTypes, PlanIntervals } from '@/payment/types';
+﻿import { PaymentTypes, PlanIntervals } from '@/payment/types';
 import type { WebsiteConfig } from '@/types';
 
 /**
  * website config, without translations
  *
  * docs:
- * https://mksaas.com/docs/config/website
+ * https://wan-25.video/docs
  */
 export const websiteConfig: WebsiteConfig = {
   ui: {
@@ -25,33 +25,33 @@ export const websiteConfig: WebsiteConfig = {
       logoDark: '/logo-dark.png',
     },
     social: {
-      github: 'https://github.com/MkSaaSHQ',
-      twitter: 'https://mksaas.link/twitter',
-      blueSky: 'https://mksaas.link/bsky',
-      discord: 'https://mksaas.link/discord',
-      mastodon: 'https://mksaas.link/mastodon',
-      linkedin: 'https://mksaas.link/linkedin',
-      youtube: 'https://mksaas.link/youtube',
+      github: 'https://wan-25.video',
+      twitter: 'https://x.com/wan25video',
+      blueSky: 'https://wan-25.video/news',
+      discord: 'https://wan-25.video/community',
+      mastodon: 'https://wan-25.video/rss',
+      linkedin: 'https://wan-25.video/briefings',
+      youtube: 'https://www.youtube.com/live/hyRFWDEX_EA',
     },
   },
   features: {
-    enableUpgradeCard: true,
-    enableUpdateAvatar: true,
+    enableUpgradeCard: false,
+    enableUpdateAvatar: false,
     enableAffonsoAffiliate: false,
     enablePromotekitAffiliate: false,
     enableDatafastRevenueTrack: false,
     enableCrispChat: false,
-    enableTurnstileCaptcha: process.env.NEXT_PUBLIC_DEMO_WEBSITE === 'true',
+    enableTurnstileCaptcha: false,
   },
   routes: {
-    defaultLoginRedirect: '/dashboard',
+    defaultLoginRedirect: '/',
   },
   analytics: {
     enableVercelAnalytics: false,
     enableSpeedInsights: false,
   },
   auth: {
-    enableGoogleLogin: true,
+    enableGoogleLogin: false,
     enableGithubLogin: false,
     enableCredentialLogin: false,
   },
@@ -78,8 +78,8 @@ export const websiteConfig: WebsiteConfig = {
   },
   mail: {
     provider: 'resend',
-    fromEmail: 'MkSaaS <support@mksaas.com>',
-    supportEmail: 'MkSaaS <support@mksaas.com>',
+    fromEmail: 'wan-2.5.video <editors@wan-25.video>',
+    supportEmail: 'wan-2.5.video <editors@wan-25.video>',
   },
   newsletter: {
     enable: false,

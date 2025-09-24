@@ -1,8 +1,8 @@
 {
   "Metadata": {
-    "name": "MkSaaS Demo",
-    "title": "MkSaaS - 最好的 AI SaaS 模板",
-    "description": "MkSaaS 是构建 AI SaaS 的最佳模板，使用 MkSaaS 可以在几天内轻松构建您的 AI SaaS，简单且毫不费力。"
+    "name": "wan-2.5.video",
+    "title": "wan-2.5.video - 为创作者打造的 Wan2.5 体验站",
+    "description": "wan-2.5.video 汇集 Wan2.5 的实机示例、创作流程与功能路线图，助你更快上线 AI 视频。"
   },
   "Common": {
     "premium": "付费文章",
@@ -46,9 +46,9 @@
     }
   },
   "PricingPage": {
-    "title": "价格",
-    "description": "选择最适合您的付费计划",
-    "subtitle": "选择最适合您的付费计划",
+    "title": "WAN 2.5 定价",
+    "description": "基于阿里云 DashScope 的按秒计费信息。",
+    "subtitle": "上线前先对比预览价位。",
     "monthly": "月付",
     "yearly": "年付",
     "PricingCard": {
@@ -312,10 +312,10 @@
   "Marketing": {
     "navbar": {
       "features": {
-        "title": "功能"
+        "title": "亮点"
       },
       "pricing": {
-        "title": "价格"
+        "title": "定价"
       },
       "blog": {
         "title": "博客"
@@ -324,27 +324,27 @@
         "title": "文档"
       },
       "ai": {
-        "title": "AI 工具",
+        "title": "模型指南",
         "items": {
           "text": {
-            "title": "AI 文本",
-            "description": "展示如何使用 AI 生成精彩文本"
+            "title": "规格手册",
+            "description": "调用 WAN 2.5 之前必备的参数清单。"
           },
           "image": {
-            "title": "AI 图像",
-            "description": "展示如何使用 AI 生成精美图像"
+            "title": "提示词示例",
+            "description": "音画同步的入门脚本集合。"
           },
           "chat": {
-            "title": "AI 聊天",
-            "description": "展示如何使用 AI 与客户聊天"
+            "title": "测试记录",
+            "description": "阅读早期用户与 QA 团队的反馈。"
           },
           "video": {
-            "title": "AI 视频",
-            "description": "展示如何使用 AI 生成惊人视频"
+            "title": "API 流程",
+            "description": "逐步完成异步轮询与重试流程。"
           },
           "audio": {
-            "title": "AI 音频",
-            "description": "展示如何使用 AI 生成动听音频"
+            "title": "音频技巧",
+            "description": "匹配时长、管理版权，输出干净声轨。"
           }
         }
       },
@@ -446,7 +446,7 @@
       }
     },
     "footer": {
-      "tagline": "使用 MkSaaS 在几天内轻松构建您的 AI SaaS",
+      "tagline": "聚焦 WAN 2.5 的规格、定价与实测笔记。",
       "product": {
         "title": "产品",
         "items": {
@@ -755,7 +755,7 @@
   "Mail": {
     "common": {
       "team": "{name} 团队",
-      "copyright": "©️ {year} 版权所有。"
+      "copyright": "Copyright {year} wan-2.5.video. All rights reserved."
     },
     "verifyEmail": {
       "title": "你好，{name}。",
@@ -781,253 +781,494 @@
     }
   },
   "HomePage": {
-    "title": "MkSaaS",
-    "description": "使用 MkSaaS 在几天内轻松构建您的 AI SaaS 产品",
+    "title": "wan-2.5.video",
+    "description": "全面了解 Wan2.5，帮助你快速向用户介绍这款 AI 视频模型。",
     "hero": {
-      "title": "使用 MkSaaS 轻松构建您的 AI SaaS 产品",
-      "description": "MkSaaS 是构建 AI SaaS 的最佳模板，内置 AI、身份验证、全球支付、博客、文档、邮件订阅、SEO、多彩主题、丰富组件等。",
-      "introduction": "介绍 MkSaaS 模板",
-      "primary": "开始使用",
-      "secondary": "查看演示"
-    },
-    "generator": {
-      "title": "试一試我们的图片生成器",
-      "description": "上传参考图片并输入提示词，几秒内生成全新的 AI 图像。"
+      "title": "Wan2.5：原生音画同步的电影级 AI 视频",
+      "description": "用一句话生成 10 秒 1080P 影像，画面、配音与字幕一体成型，助你高效讲好品牌故事。",
+      "introduction": "Wan2.5 预览版现已开放",
+      "primary": "加入候补名单",
+      "secondary": "查看示例"
     },
     "logocloud": {
-      "title": "您最爱公司都是我们的合作伙伴"
+      "title": "创作者与合作伙伴正在体验 Wan2.5"
     },
-    "integration": {
-      "title": "集成",
-      "subtitle": "与您最喜欢的工具集成",
-      "description": "无缝连接流行的平台和服务，以增强您的工作流程。",
-      "learnMore": "了解更多",
-      "items": {
-        "item-1": {
-          "title": "Google Gemini",
-          "description": "这里是Google Gemini的描述，详细介绍Google Gemini的功能和优势。"
+    "specs": {
+      "eyebrow": "3 步完成创作",
+      "title": "现在的创作者如何用 Wan2.5 产出视频",
+      "description": "照着这套流程规划故事、调校画面，并快速对外发布成果。",
+      "steps": {
+        "step-1": {
+          "title": "梳理故事结构",
+          "description": "先用一段话交代人物、场景、节奏与镜头运动，明确你想呈现的亮点。",
+          "label": "提示词示例",
+          "example": "示例：'雨夜的霓虹咖啡厅里，创始人向镜头介绍 Wan2.5，玻璃上映出动态字卡。'"
         },
-        "item-2": {
-          "title": "Replit",
-          "description": "这里是Replit的描述，详细介绍Replit的功能和优势。"
+        "step-2": {
+          "title": "确定画面与声音",
+          "description": "选择画幅比例、时长与音轨风格，决定是保留 Wan2.5 原生配音还是上传自定义音乐。",
+          "label": "镜头清单",
+          "example": "记得写明氛围、景别、灯光、转场与画面文字，确保模型理解节奏。"
         },
-        "item-3": {
-          "title": "MagicUI",
-          "description": "这里是MagicUI的描述，详细介绍MagicUI的功能和优势。"
+        "step-3": {
+          "title": "审片并发布",
+          "description": "下载 MP4 后可二次剪辑、添加字幕，并同步投放到短视频、落地页或产品教学。",
+          "label": "快速发布",
+          "example": "导出带水印和无水印两个版本，记录素材信息，方便复用与合规审核。"
+        }
+      },
+      "toolkit": {
+        "prompt-lab": {
+          "title": "提示词灵感库",
+          "description": "这些结构能帮助 Wan2.5 呈现电影级节奏。",
+          "bullets": [
+            "将灯光、质感、镜头运动与节奏等关键词组合起来。",
+            "用引号标注对白，模型会自动匹配口型与语气。",
+            "画面上词必须精准写出，确保最终呈现符合品牌规范。"
+          ]
         },
-        "item-4": {
-          "title": "VSCodium",
-          "description": "这里是VSCodium的描述，详细介绍VSCodium的功能和优势。"
+        "audio-tips": {
+          "title": "声音制作技巧",
+          "description": "决定是完整使用 Wan2.5 原声，还是叠加你准备的音轨。",
+          "bullets": [
+            "上传的 MP3/WAV 建议控制在 3-30 秒，方便对齐画面长度。",
+            "想让 Wan2.5 自动配乐，可在提示词里描述氛围、情绪或节奏。",
+            "保留纯人声版本，方便后续做多语种本地化。"
+          ]
         },
-        "item-5": {
-          "title": "MediaWiki",
-          "description": "这里是MediaWiki的描述，详细介绍MediaWiki的功能和优势。"
+        "share": {
+          "title": "团队协同建议",
+          "description": "帮助同事快速判断哪些片段该上线。",
+          "bullets": [
+            "将素材放进 Notion、Airtable 等看板，备注时长与 CTA。",
+            "标记需要重生成的片段，方便编辑人员跟车。",
+            "发布前收集团队的反馈，统一挤定上线版本。"
+          ]
+        }
+      },
+      "demos": {
+        "title": "即改即用的故事范本",
+        "description": "根据品牌风格调整提示词、配音与镜头设置即可投入制作。",
+        "demo-1": {
+          "title": "新品预热",
+          "prompt": "提示词：'钴蓝色智能音箱在玻璃台座旋转，动态字卡突出 \"Powered by Wan2.5\"。'",
+          "note": "可搭配双语配音，用于发布会与邮件预告。"
         },
-        "item-6": {
-          "title": "Google PaLM",
-          "description": "这里是Google PaLM的描述，详细介绍Google PaLM的功能和优势。"
+        "demo-2": {
+          "title": "知识科普",
+          "prompt": "提示词：'暖调教室光线下，老师用平板演示三步骤，字幕分段呈现重点。'",
+          "note": "建议搭配轻松配乐与明确的行动号召。"
+        },
+        "demo-3": {
+          "title": "虚拟主持开场",
+          "prompt": "提示词：'极简演播室中，主持人欢迎观众加入 Wan2.5 直播，镜头环绕推进。'",
+          "note": "快速替换多语音色，同步服务不同市场。"
+        },
+        "demo-4": {
+          "title": "城市旅拍",
+          "prompt": "提示词：'上海天际线的日落航拍切换至街头慢动作镜头，手持摄影呈现生活感。'",
+          "note": "结合环境音与 Lo-fi 节奏，适合短视频平台。"
         }
       }
     },
-    "integration2": {
-      "title": "与您最喜欢的工具集成",
-      "description": "无缝连接流行的平台和服务，以增强您的工作流程。",
-      "primaryButton": "开始使用",
-      "secondaryButton": "查看演示"
-    },
-    "features": {
-      "title": "功能",
-      "subtitle": "您的 SaaS 产品功能",
-      "description": "请在这里介绍您的 SaaS 产品的特色功能的信息",
+    "integration": {
+      "title": "Wan2.5 一图速览",
+      "subtitle": "创作者最关心的亮点",
+      "description": "在正式开放前，先了解这些核心能力。",
+      "learnMore": "了解更多",
       "items": {
         "item-1": {
-          "title": "产品特色功能一",
-          "description": "请在这里详细描述您的产品特色功能一，尽可能详细，使其更吸引用户，提高落地页的转化率"
+          "title": "电影感画质",
+          "description": "10 秒 1080P、24 fps，高光影、高动态、字幕清晰，适配多平台发布。"
         },
         "item-2": {
-          "title": "产品特色功能二",
-          "description": "请在这里详细描述您的产品特色功能二，尽可能详细，使其更吸引用户，提高落地页的转化率"
+          "title": "原生音画同步",
+          "description": "内置自然配音、环境音与音乐，也可上传自有音轨，精准对齐口型。"
         },
         "item-3": {
-          "title": "产品特色功能三",
-          "description": "请在这里详细描述您的产品特色功能三，尽可能详细，使其更吸引用户，提高落地页的转化率"
+          "title": "创作掌控力",
+          "description": "自定义镜头运动、转场、文字排版，并可按需启用 prompt extend。"
         },
         "item-4": {
-          "title": "产品特色功能四",
-          "description": "请在这里详细描述您的产品特色功能四，尽可能详细，使其更吸引用户，提高落地页的转化率"
+          "title": "全球化准备",
+          "description": "支持多语配音与字幕，同一个脚本即可覆盖不同地区。"
+        }
+      }
+    },
+    "features": {
+      "title": "高频应用场景",
+      "subtitle": "把 Wan2.5 带入你的内容计划",
+      "description": "选择一个场景，即可查看推荐的提示词与节奏。",
+      "items": {
+        "item-1": {
+          "title": "新品/活动宣传",
+          "description": "打造具有叙事感的产品镜头、UI 演示与动态字卡，用于广告投放、落地页或众筹项目。"
+        },
+        "item-2": {
+          "title": "教学与培训",
+          "description": "把文档与教程拆成短视频，分章节字幕、人物讲解、背景音乐一次搞定。"
+        },
+        "item-3": {
+          "title": "短剧与内容栏目",
+          "description": "规划系列化短视频、幕后花絮或 vlog，保持角色一致与节奏统一。"
+        },
+        "item-4": {
+          "title": "虚拟主播与直播总结",
+          "description": "快速生成虚拟主持开场、活动回顾或预告片，让直播内容更完整。"
         }
       }
     },
     "features2": {
-      "title": "功能2",
-      "subtitle": "您的 SaaS 产品功能",
-      "description": "请在这里介绍您的 SaaS 产品的特色功能的信息",
-      "feature-1": "特色功能特点一",
-      "feature-2": "特色功能特点二",
-      "feature-3": "特色功能特点三",
-      "feature-4": "特色功能特点四"
+      "title": "创作流程范式",
+      "subtitle": "从灵感到成片",
+      "description": "在正式版上线前，保持流程高效轻量。",
+      "highlight": "一次设计，多端发布",
+      "supporting": "Wan2.5 负责画面、声音与节奏，你专注于讲故事。",
+      "feature-1": "确定开场钩子、情绪参考与投放渠道。",
+      "feature-2": "导入品牌视觉或主角资产，保持风格统一。",
+      "feature-3": "按版本选择原生音频或自定义配音。",
+      "feature-4": "导出各平台所需比例，并建立素材库方便复用。"
     },
     "features3": {
-      "title": "功能3",
-      "subtitle": "您的 SaaS 产品功能",
-      "description": "请在这里介绍您的 SaaS 产品的特色功能的信息",
+      "title": "为什么选择 Wan2.5",
+      "subtitle": "为内容团队量身打造",
+      "description": "预览版已具备电影级叙事所需的关键能力。",
       "items": {
         "item-1": {
-          "title": "产品特色功能一",
-          "description": "请在这里详细描述您的产品特色功能一，尽可能详细，使其更吸引用户"
+          "title": "1080P 高清",
+          "description": "稳定的运动模糊与镜头推进，满足广告与短剧质感。"
         },
         "item-2": {
-          "title": "产品特色功能二",
-          "description": "请在这里详细描述您的产品特色功能二，尽可能详细，使其更吸引用户"
+          "title": "真实声音",
+          "description": "多语音色任意切换，也可上传自有配音素材。"
         },
         "item-3": {
-          "title": "产品特色功能三",
-          "description": "请在这里详细描述您的产品特色功能三，尽可能详细，使其更吸引用户"
+          "title": "提示词可控",
+          "description": "需要时启用 prompt extend 优化语言，也可锁定逐字呈现。"
         },
         "item-4": {
-          "title": "产品特色功能四",
-          "description": "请在这里详细描述您的产品特色功能四，尽可能详细，使其更吸引用户"
+          "title": "快速迭代",
+          "description": "并行生成多种风格，随时挑选最佳方案。"
         },
         "item-5": {
-          "title": "产品特色功能五",
-          "description": "请在这里详细描述您的产品特色功能五，尽可能详细，使其更吸引用户"
+          "title": "品牌友好",
+          "description": "支持水印开关、字幕排版与使用记录，方便审查。"
         },
         "item-6": {
-          "title": "产品特色功能六",
-          "description": "请在这里详细描述您的产品特色功能六，尽可能详细，使其更吸引用户"
+          "title": "生态持续扩展",
+          "description": "社区提示词包、制作清单与即将开放的 API 持续更新。"
+        }
+      }
+    },
+    "api": {
+      "eyebrow": "立即准备",
+      "title": "现在就加入 Wan2.5 预览计划",
+      "description": "先体验示例，再进入社区锁定优先试用资格。",
+      "steps": {
+        "step-1": {
+          "title": "观看发布回顾",
+          "description": "快速了解 Wan2.5 的音画同步与代表性案例。",
+          "cta": "播放直播回放",
+          "href": "https://www.youtube.com/watch?v=hyRFWDEX_EA"
+        },
+        "step-2": {
+          "title": "实践提示词",
+          "description": "参考上方示例，自定义旁白语气与镜头设计。",
+          "cta": "打开灵感库",
+          "href": "/#specs"
+        },
+        "step-3": {
+          "title": "加入创作者候补",
+          "description": "预约托管体验席位，第一时间接入正式版本与 API。",
+          "cta": "提交申请",
+          "href": "https://wan-25.video/community"
+        },
+        "step-4": {
+          "title": "反馈应用场景",
+          "description": "告诉我们你的行业、产量与对接需求，帮助我们排期功能。",
+          "cta": "发送需求",
+          "href": "mailto:editors@wan-25.video"
+        }
+      },
+      "video": {
+        "title": "Wan2.5 预览讲解",
+        "description": "直播中展示的音频细节、运动表现与未来规划。"
+      },
+      "resources": {
+        "title": "创作者资源",
+        "description": "收藏这些链接，随时掌握教程与更新。",
+        "resource-1": {
+          "title": "社区中心",
+          "description": "与首批创作者交流提示词、共享真实渲染案例。",
+          "cta": "加入社区",
+          "href": "https://wan-25.video/community"
+        },
+        "resource-2": {
+          "title": "产品简报",
+          "description": "一页纸介绍，方便向团队或客户说明 Wan2.5。",
+          "cta": "下载资料",
+          "href": "https://wan-25.video/briefings"
+        },
+        "resource-3": {
+          "title": "媒体素材包",
+          "description": "Logo、品牌色与使用规范，支持媒体报道与合作露出。",
+          "cta": "查看素材",
+          "href": "https://wan-25.video/press"
+        }
+      }
+    },
+    "insights": {
+      "eyebrow": "创作贴士",
+      "title": "体验 Wan2.5 时的最佳实践",
+      "description": "来自内部团队与合作工作室的使用心得。",
+      "items": {
+        "card-1": {
+          "title": "动手前",
+          "bullets": [
+            "准备 2-3 张风格参考图，让模型掌握色调与氛围。",
+            "对话按目标语言编写，并用大写或括号标注重音。",
+            "提前规划字幕与 CTA 位置，确保画面留白。"
+          ]
+        },
+        "card-2": {
+          "title": "生成中",
+          "bullets": [
+            "同时排队多个版本，比较运动状态与声色。",
+            "记录每次修改后的提示词，形成可复用范式。",
+            "戴耳机试听音轨，移动端与桌面端的混音会有差异。"
+          ]
+        },
+        "card-3": {
+          "title": "发布后",
+          "bullets": [
+            "根据平台长度剪辑，并补充字幕与标题。",
+            "保留水印版与纯净版，满足预热与正式上线两种需求。",
+            "统计各渠道的表现数据，回流到提示词迭代。"
+          ]
+        }
+      }
+    },
+    "integration2": {
+      "title": "即将上线的重点功能",
+      "description": "托管体验持续打磨中，我们也在为高级团队准备更多工具。",
+      "primaryButton": "抢先加入",
+      "primaryLinkHref": "https://wan-25.video/community",
+      "secondaryButton": "提交需求",
+      "secondaryLinkHref": "mailto:editors@wan-25.video",
+      "footnote": "路线图会根据创作者反馈动态调整。",
+      "items": {
+        "item-1": {
+          "title": "所见即所得编辑器",
+          "description": "逐帧预览、微调镜头、添加字幕，无需离开浏览器。",
+          "tag": "即将推出"
+        },
+        "item-2": {
+          "title": "批量剧情生成",
+          "description": "上传提示词集合或表格，一键生成系列化内容。",
+          "tag": "规划中"
+        },
+        "item-3": {
+          "title": "创作者 API/SDK",
+          "description": "自动化渲染、管理音频上传，并接入现有工作流。",
+          "tag": "开发者测试"
+        },
+        "item-4": {
+          "title": "品牌安全工具包",
+          "description": "集中管理水印、版权与审核流程，满足企业需求。",
+          "tag": "调研阶段"
         }
       }
     },
     "pricing": {
-      "title": "价格",
-      "subtitle": "价格",
-      "description": "选择最适合您的付费计划"
+      "subtitle": "接入方式",
+      "description": "选择与你的内容目标最匹配的方案。",
+      "plans": {
+        "plan-1": {
+          "label": "个人创作者",
+          "title": "预览体验营",
+          "description": "少量渲染额度、精选提示词与社区直播答疑。",
+          "price": "限量 · 免费",
+          "features": [
+            "托管体验与模板合集",
+            "每周提示词与幕后拆解",
+            "与 Wan2.5 团队的即时反馈通道"
+          ],
+          "cta": "申请名额",
+          "href": "https://wan-25.video/community",
+          "featured": false
+        },
+        "plan-2": {
+          "label": "内容团队",
+          "title": "创作者计划",
+          "description": "更高的生成频次、团队协作库与优先支持。",
+          "price": "预计 $49/月 起",
+          "features": [
+            "品牌与代理可共享工作区",
+            "定时导出适配各大平台",
+            "率先试用即将上线的编辑工具"
+          ],
+          "cta": "加入候补列表",
+          "href": "https://wan-25.video/briefings",
+          "featured": true
+        },
+        "plan-3": {
+          "label": "品牌与工作室",
+          "title": "Studio 合作",
+          "description": "定制集成、品牌治理与联合推广机会。",
+          "price": "定制方案",
+          "features": [
+            "专属成功经理与技术对接",
+            "提示词共创与策略工作坊",
+            "可选接入内部 DAM/CMS 系统"
+          ],
+          "cta": "预约洽谈",
+          "href": "mailto:editors@wan-25.video",
+          "featured": false
+        }
+      },
+      "notes": {
+        "title": "后续安排",
+        "description": "我们正与阿里云团队确认正式价格与开放节奏。",
+        "items": [
+          "正式上线后，地区价格可能有所差异。",
+          "早期用户会收到迁移与报价指引。",
+          "企业合作可打包其他 Model Studio 服务。"
+        ]
+      }
     },
     "faqs": {
       "title": "常见问题",
-      "subtitle": "如果您有任何问题，请随时联系我们",
+      "subtitle": "体验 Wan2.5 前你可能会问",
       "items": {
         "item-1": {
-          "question": "你们提供免费试用吗？",
-          "answer": "是的，我们提供7天的免费试用。"
+          "question": "现在怎么申请试用?",
+          "answer": "加入创作者候补名单，我们会安排托管体验并提供操作指南。"
         },
         "item-2": {
-          "question": "如何取消我的订阅？",
-          "answer": "您可以通过访问账单页面取消您的订阅。"
+          "question": "生成视频是否带声音?",
+          "answer": "会。Wan2.5 可自动生成对白、环境音与音乐，也支持上传 MP3/WAV 直接配音。"
         },
         "item-3": {
-          "question": "我可以更改我的计划吗？",
-          "answer": "是的，您可以随时通过访问账单页面更改您的计划。"
+          "question": "预览版有哪些限制?",
+          "answer": "目前每支视频最长 10 秒、24 fps，暂未开放动作迁移或替换功能。"
         },
         "item-4": {
-          "question": "你们的退款政策是什么？",
-          "answer": "是的，我们提供30天的退款保证。"
+          "question": "可以商用发布吗?",
+          "answer": "可以，但请留意所在地区的使用政策，并根据需要保留水印或相关授权记录。"
         },
         "item-5": {
-          "question": "找不到您想问的问题？",
-          "answer": "请联系我们的客户支持团队，邮箱地址：support@mksaas.com"
-        }
-      }
-    },
-    "testimonials": {
-      "title": "客户评价",
-      "subtitle": "我们的客户对我们的评价",
-      "items": {
-        "item-1": {
-          "name": "Jonathan Yombo",
-          "role": "软件工程师",
-          "image": "https://randomuser.me/api/portraits/men/1.jpg",
-          "quote": "MkSaaS 非常出色且实用，无需费心，一个真正的金矿。"
-        },
-        "item-2": {
-          "name": "Yves Kalume",
-          "role": "Android GDE",
-          "image": "https://randomuser.me/api/portraits/men/6.jpg",
-          "quote": "没有网页设计经验，我只需几分钟就可以用 Tailwindcss 重新设计我的整个网站，感谢 MkSaaS。"
-        },
-        "item-3": {
-          "name": "Yucel Faruksahan",
-          "role": "Tailkits 创建者",
-          "image": "https://randomuser.me/api/portraits/men/7.jpg",
-          "quote": "MkSaaS 模板做得很好，这是我见过最好的 SaaS 模板，没有之一 :)"
-        },
-        "item-4": {
-          "name": "Anonymous author",
-          "role": "产品经理",
-          "image": "https://randomuser.me/api/portraits/men/8.jpg",
-          "quote": "我不熟悉 Tailwind，我想自己做一些页面，我在网上搜索了很多英雄页面和区块。然而，大多数都没有给我一个清晰的想法，或者需要一些 HTML/CSS 编码背景来从原始文件中做一些更改，或者太贵了。我下载了其中一个 MkSaaS 模板，它非常容易理解，你可以在开始时修改代码/区块以完美地适应你的页面目的。"
-        },
-        "item-5": {
-          "name": "Shekinah Tshiokufila",
-          "role": "高级软件工程师",
-          "image": "https://randomuser.me/api/portraits/men/4.jpg",
-          "quote": "MkSaaS 正在重新定义网页设计标准，这些区块为那些喜欢美丽但可能缺乏时间实现它的人提供了简单且高效的方式。我只能推荐这个不可思议的奇迹。"
-        },
-        "item-6": {
-          "name": "Oketa Fred",
-          "role": "全栈开发工程师",
-          "image": "https://randomuser.me/api/portraits/men/2.jpg",
-          "quote": "我绝对喜欢 MkSaaS！这些组件区块设计精美且易于使用，使创建一个出色的网站变得轻而易举。"
-        },
-        "item-7": {
-          "name": "Zeki",
-          "role": "ChatExtend 创始人",
-          "image": "https://randomuser.me/api/portraits/men/5.jpg",
-          "quote": "使用 MkSaaS 就像解锁了一个秘密的设计超能力。它是简单性和多功能性的完美融合，使我们能够创建既令人惊叹又用户友好的界面。"
-        },
-        "item-8": {
-          "name": "Joseph Kitheka",
-          "role": "全栈开发工程师",
-          "image": "https://randomuser.me/api/portraits/men/9.jpg",
-          "quote": "MkSaaS 改变了我的网页开发方式。他们的 UI 组件、区块和模板极大地加速了我的工作流程。定制每个方面的灵活性使我能够创建独特的用户体验。MkSaaS 是现代网页开发的游戏规则改变者！"
-        },
-        "item-9": {
-          "name": "Khatab Wedaa",
-          "role": "MerakiUI 创建者",
-          "image": "https://randomuser.me/api/portraits/men/10.jpg",
-          "quote": "MkSaaS 是一个优雅、干净且响应式的 SaaS 模板，它非常有助于快速开始您的项目。"
-        },
-        "item-10": {
-          "name": "Rodrigo Aguilar",
-          "role": "TailwindAwesome 创建者",
-          "image": "https://randomuser.me/api/portraits/men/11.jpg",
-          "quote": "我爱 MkSaaS ❤️。这些组件区块结构良好，易于使用，设计精美。它使创建一个出色的网站变得非常容易。"
-        },
-        "item-11": {
-          "name": "Eric Ampire",
-          "role": "Google 开发者专家",
-          "image": "https://randomuser.me/api/portraits/men/12.jpg",
-          "quote": "MkSaaS 模板是任何想要创建一个美丽且功能齐全的网站但没有网页设计经验的人的完美解决方案。这些模板易于使用，可定制，并且响应迅速。我强烈推荐 MkSaaS 模板给任何想要创建网站的人。"
-        },
-        "item-12": {
-          "name": "Roland Tubonge",
-          "role": "软件工程师",
-          "image": "https://randomuser.me/api/portraits/men/13.jpg",
-          "quote": "MkSaaS 设计得如此出色，即使没有网页设计经验，您也可以创造奇迹。让自己被吸引！"
-        }
-      }
-    },
-    "stats": {
-      "title": "统计",
-      "subtitle": "MkSaaS 相关的数字",
-      "description": "MkSaaS 可让您在几天内轻松构建您的 AI SaaS",
-      "items": {
-        "item-1": {
-          "title": "GitHub 上的星星"
-        },
-        "item-2": {
-          "title": "使用 MkSaaS 的活跃用户"
-        },
-        "item-3": {
-          "title": "使用 MkSaaS 启动的应用"
+          "question": "遇到问题找谁?",
+          "answer": "可发送邮件至 editors@wan-25.video，或在社区提问获得提示词与功能支持。"
         }
       }
     },
     "calltoaction": {
-      "title": "开始构建",
-      "description": "MkSaaS 可让您在几天内轻松构建您的 AI SaaS",
-      "primaryButton": "开始使用",
-      "secondaryButton": "查看演示"
+      "title": "让 Wan2.5 成为你的下一个爆款故事",
+      "description": "和全球创作者一起定义 AI 视频的新范式。",
+      "primaryButton": "加入候补名单",
+      "secondaryButton": "观看示例",
+      "primaryHref": "/#coming-soon",
+      "secondaryHref": "/#video-demo",
+      "officialLabel": "官方入口",
+      "officialLinks": {
+        "zaodian": "造点 · 万向工作室",
+        "tongyi": "通义万向生成页"
+      },
+      "disclaimer": "wan-2.5.video 为独立第三方模型服务，与阿里云及 Wan2.5 官方团队无直接隐归关系。"
+    },
+    "stats": {
+      "title": "Wan2.5 预览热度",
+      "subtitle": "社区反馈与增长指标",
+      "description": "数据更新至 2025 年 9 月，后续每月刷新。",
+      "items": {
+        "item-1": {
+          "title": "加入候补名单的创作者"
+        },
+        "item-2": {
+          "title": "内部冲刺阶段累计渲染帧数"
+        },
+        "item-3": {
+          "title": "提交需求的品牌与工作室"
+        }
+      }
+    },
+    "testimonials": {
+      "title": "创作者的真实反馈",
+      "subtitle": "Wan2.5 预览用户的使用心得",
+      "items": {
+        "item-1": {
+          "name": "Lina Zheng",
+          "role": "Tidewave Studio 创意总监",
+          "image": "https://randomuser.me/api/portraits/women/11.jpg",
+          "quote": "一个下午就完成新品发布片的分镜、动效与配音，Wan2.5 大幅压缩了制作周期。"
+        },
+        "item-2": {
+          "name": "Marcus Lee",
+          "role": "Loop Labs 创始人",
+          "image": "https://randomuser.me/api/portraits/men/32.jpg",
+          "quote": "我们在英文与粤语配音间来回切换，全程无需重新录音，客户非常惊喜。"
+        },
+        "item-3": {
+          "name": "Aisha Rahman",
+          "role": "BrightPath Education 视频负责人",
+          "image": "https://randomuser.me/api/portraits/women/47.jpg",
+          "quote": "教学短片因为 Wan2.5 的节奏与板书文字效果，更像真正的课堂。"
+        },
+        "item-4": {
+          "name": "Diego Martínez",
+          "role": "Nueva Ola Agency 制片人",
+          "image": "https://randomuser.me/api/portraits/men/78.jpg",
+          "quote": "预览版对手持镜头的质感拿捏到位，我们做了一季社交短剧都没开机。"
+        },
+        "item-5": {
+          "name": "Harper Collins",
+          "role": "Neon Verse 内容策略师",
+          "image": "https://randomuser.me/api/portraits/women/65.jpg",
+          "quote": "prompt extend 既能优化语言，又能保持品牌用词，非常省心。"
+        },
+        "item-6": {
+          "name": "Ravi Kulkarni",
+          "role": "FluxGear 产品营销负责人",
+          "image": "https://randomuser.me/api/portraits/men/83.jpg",
+          "quote": "我们终于能一次完成产品画面与解说音轨，为全球市场统一发布。"
+        },
+        "item-7": {
+          "name": "Sofia Marin",
+          "role": "Creator Forge 社区负责人",
+          "image": "https://randomuser.me/api/portraits/women/29.jpg",
+          "quote": "社区成员每天都在分享 Wan2.5 提示词，快速迭代让大家充满灵感。"
+        },
+        "item-8": {
+          "name": "Noah Walker",
+          "role": "独立影像创作者",
+          "image": "https://randomuser.me/api/portraits/men/45.jpg",
+          "quote": "我用 Wan2.5 先做了网剧试播集的分镜，确定风格后再决定真实拍摄。"
+        },
+        "item-9": {
+          "name": "Emily Zhao",
+          "role": "Aurora Commerce 客户体验主管",
+          "image": "https://randomuser.me/api/portraits/women/23.jpg",
+          "quote": "客服视频因为音质清晰、画面统一，正式感瞬间提升。"
+        },
+        "item-10": {
+          "name": "Jonah Briggs",
+          "role": "Signal & Noise 工作室经理",
+          "image": "https://randomuser.me/api/portraits/men/58.jpg",
+          "quote": "批量生成广告物料非常顺畅，我们把 Wan2.5 当成团队里的另一位编辑。"
+        },
+        "item-11": {
+          "name": "Priya Mehta",
+          "role": "Storyseed Asia CEO",
+          "image": "https://randomuser.me/api/portraits/women/12.jpg",
+          "quote": "投资人看完 Wan2.5 demo 立即追问商业化落地时间。"
+        },
+        "item-12": {
+          "name": "Gabe Hudson",
+          "role": "Orbit XR 设计负责人",
+          "image": "https://randomuser.me/api/portraits/men/14.jpg",
+          "quote": "电影级镜头路径加上原生音频，让我们的 AR 展示更加完整。"
+        }
+      }
     }
   },
   "AITextPage": {
@@ -1080,20 +1321,20 @@
     }
   },
   "AIImagePage": {
-    "title": "AI 图片",
-    "description": "MkSaaS 让您在几天内轻松构建您的 AI SaaS，简单且毫不费力"
+    "title": "WAN 图像工具",
+    "description": "同步追踪 WAN 2.x 图像生成功能的更新。"
   },
   "AIChatPage": {
-    "title": "AI 聊天",
-    "description": "MkSaaS 让您在几天内轻松构建您的 AI SaaS，简单且毫不费力"
+    "title": "WAN 运维中枢",
+    "description": "集中记录提示词、task_id 与重试情况。"
   },
   "AIVideoPage": {
-    "title": "AI 视频",
-    "description": "MkSaaS 让您在几天内轻松构建您的 AI SaaS，简单且毫不费力"
+    "title": "WAN 视频运营",
+    "description": "管理 Wan 2.5 任务、音频素材与交付流程。"
   },
   "AIAudioPage": {
-    "title": "AI 音频",
-    "description": "MkSaaS 让您在几天内轻松构建您的 AI SaaS，简单且毫不费力"
+    "title": "WAN 音频指南",
+    "description": "上传音频时的时长、版权与混音建议。"
   },
   "SettingsNotificationsPage": {
     "disabledMessage": "通知功能暂时关闭。"

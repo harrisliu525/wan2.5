@@ -1,8 +1,8 @@
 {
   "Metadata": {
-    "name": "MkSaaS Demo",
-    "title": "MkSaaS - The Best AI SaaS Boilerplate",
-    "description": "MkSaaS is the best AI SaaS boilerplate. Make AI SaaS in days, simply and effortlessly"
+    "name": "wan-2.5.video",
+    "title": "wan-2.5.video - AI video made for storytellers",
+    "description": "wan-2.5.video helps you introduce Wan2.5 with cinematic demos, workflow guides, and coming-soon product updates."
   },
   "Common": {
     "premium": "Premium",
@@ -46,21 +46,21 @@
     }
   },
   "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
+    "title": "WAN 2.5 Pricing",
+    "description": "Usage-based rates from Alibaba Cloud DashScope.",
+    "subtitle": "Compare preview pricing before you launch.",
     "monthly": "Monthly",
     "yearly": "Yearly",
     "PricingCard": {
       "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
+      "perMonth": "/sec",
+      "perYear": "/sec",
+      "popular": "Preview",
       "currentPlan": "Current Plan",
       "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
+      "getStartedForFree": "Claim preview quota",
+      "getLifetimeAccess": "Contact sales",
+      "getStarted": "View pricing",
       "notAvailable": "Not Available",
       "daysTrial": "{days}-day free trial"
     },
@@ -144,12 +144,12 @@
   },
   "AboutPage": {
     "title": "About",
-    "description": "This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better.",
-    "authorName": "MkSaaS",
-    "authorBio": "AI SaaS Boilerplate",
-    "introduction": "👋 Hi there! This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better. If you have any questions, welcome to contact me.",
-    "talkWithMe": "Talk with me",
-    "followMe": "Follow me on X"
+    "description": "wan-2.5.video documents everything shipping with Alibaba Cloud's WAN 2.5 preview so your team can launch faster.",
+    "authorName": "wan-2.5.video",
+    "authorBio": "WAN 2.5 preview hub",
+    "introduction": "Hi from wan-2.5.video - we track WAN 2.5 specs, pricing, and real-world evaluations. Reach out at editors@wan-25.video if you spot an update.",
+    "talkWithMe": "Email the editors",
+    "followMe": "Follow us on X"
   },
   "ChangelogPage": {
     "title": "Changelog",
@@ -293,7 +293,7 @@
     "previousPage": "Previous",
     "nextPage": "Next",
     "chooseLanguage": "Select language",
-    "title": "MkSaaS Docs",
+    "title": "wan-2.5.video Docs",
     "homepage": "Homepage"
   },
   "PremiumContent": {
@@ -312,7 +312,7 @@
   "Marketing": {
     "navbar": {
       "features": {
-        "title": "Features"
+        "title": "Highlights"
       },
       "pricing": {
         "title": "Pricing"
@@ -324,27 +324,27 @@
         "title": "Docs"
       },
       "ai": {
-        "title": "AI Tools",
+        "title": "Model guides",
         "items": {
           "text": {
-            "title": "AI Text",
-            "description": "Show how to use AI to write stunning text"
+            "title": "Spec sheet",
+            "description": "All the parameters you need before calling Wan 2.5."
           },
           "image": {
-            "title": "AI Image",
-            "description": "Show how to use AI to generate beautiful images"
+            "title": "Prompt recipes",
+            "description": "Starter briefs for cinematic clips with audio."
           },
           "chat": {
-            "title": "AI Chat",
-            "description": "Show how to use AI to chat with your customers"
+            "title": "Testing notes",
+            "description": "Read feedback from early adopters and QA teams."
           },
           "video": {
-            "title": "AI Video",
-            "description": "Show how to use AI to generate amazing videos"
+            "title": "API flow",
+            "description": "Step-by-step async workflow with polling and retries."
           },
           "audio": {
-            "title": "AI Audio",
-            "description": "Show how to use AI to generate wonderful audio"
+            "title": "Audio tips",
+            "description": "Match durations, manage rights, and deliver clean mixes."
           }
         }
       },
@@ -446,7 +446,7 @@
       }
     },
     "footer": {
-      "tagline": "Make AI SaaS in days, simply and effortlessly",
+      "tagline": "Curating everything WAN 2.5 - specs, pricing, and field notes.",
       "product": {
         "title": "Product",
         "items": {
@@ -755,7 +755,7 @@
   "Mail": {
     "common": {
       "team": "{name} Team",
-      "copyright": "©️ {year} All Rights Reserved."
+      "copyright": "Copyright {year} wan-2.5.video. All rights reserved."
     },
     "verifyEmail": {
       "title": "Hi, {name}.",
@@ -781,253 +781,494 @@
     }
   },
   "HomePage": {
-    "title": "MkSaaS",
-    "description": "Make AI SaaS in days, simply and effortlessly",
+    "title": "wan-2.5.video",
+    "description": "Everything you need to introduce Wan2.5 to your audience.",
     "hero": {
-      "title": "Make AI SaaS in days, simply and effortlessly",
-      "description": "The is a demo website built with MkSaaS, a Next.js SaaS boilerplate to help you build your AI SaaS faster and better.",
-      "introduction": "Introducing MkSaaS Boilerplate",
-      "primary": "Get Started",
-      "secondary": "See Demo"
-    },
-    "generator": {
-      "title": "Try the image generator",
-      "description": "Upload a reference image, enter a prompt, and create a fresh AI rendition in seconds."
+      "title": "Wan2.5: cinematic AI video with native audio",
+      "description": "Turn your prompts into 10-second 1080p stories with lip-synced voices, multilanguage delivery, and confident motion control.",
+      "introduction": "Now previewing Wan2.5",
+      "primary": "Join the waitlist",
+      "secondary": "See it in action"
     },
     "logocloud": {
-      "title": "Your favorite companies are our partners"
+      "title": "Featured by creators and partners exploring Wan2.5"
     },
-    "integration": {
-      "title": "Integrations",
-      "subtitle": "Integrate with your favorite tools",
-      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
-      "learnMore": "Learn More",
-      "items": {
-        "item-1": {
-          "title": "Google Gemini",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+    "specs": {
+      "eyebrow": "Create in minutes",
+      "title": "How creators ship Wan2.5 videos today",
+      "description": "Follow a repeatable flow to storyboard, refine, and share high-impact clips while the public release gets ready.",
+      "steps": {
+        "step-1": {
+          "title": "Map your story",
+          "description": "Outline the hook, characters, and camera pacing in one clear paragraph before you generate anything.",
+          "label": "Prompt idea",
+          "example": "Example prompt: 'A slow push-in on a neon-lit cafe where a founder previews Wan2.5, rain streaking outside and typography appearing in mid-air.'"
         },
-        "item-2": {
-          "title": "Replit",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        "step-2": {
+          "title": "Select visuals and sound",
+          "description": "Choose aspect ratio, duration, and audio style. Decide whether to keep Wan2.5's native dub or upload your own track.",
+          "label": "Scene checklist",
+          "example": "Include mood, camera moves, wardrobe, transitions, and call-to-action text so the model understands the beat."
         },
-        "item-3": {
-          "title": "MagicUI",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        "step-3": {
+          "title": "Review and publish",
+          "description": "Download the MP4, trim or loop as needed, and repurpose the clip for shorts, product pages, and in-product education.",
+          "label": "Share it fast",
+          "example": "Export with subtitles for social, keep a watermark version for teasers, and archive credits for compliance."
+        }
+      },
+      "toolkit": {
+        "prompt-lab": {
+          "title": "Prompt lab favorites",
+          "description": "Reusable structures that help Wan2.5 deliver cinematic pacing.",
+          "bullets": [
+            "Stack sensory keywords: lighting, texture, camera framing, and pacing cues.",
+            "Flag dialogue beats in quotes so the native voice keeps up with lip movements.",
+            "List product names and UI text exactly how you want them rendered on screen."
+          ]
         },
-        "item-4": {
-          "title": "VSCodium",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        "audio-tips": {
+          "title": "Audio finishing tips",
+          "description": "Decide whether Wan2.5 or your own track should lead the story.",
+          "bullets": [
+            "Keep uploaded MP3 or WAV files between 3 and 30 seconds to match clip length.",
+            "Ask for ASMR, ambience, or musical build-ups in the prompt when you let Wan2.5 score it.",
+            "Export voiceover-only takes for localization, then remix with platform-specific music."
+          ]
         },
-        "item-5": {
-          "title": "MediaWiki",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        "share": {
+          "title": "Share with stakeholders",
+          "description": "Help teams decide which clips go live first.",
+          "bullets": [
+            "Drop renders into a Notion board or Airtable base with notes on length and CTA.",
+            "Tag clips that need reshoots so editors know what to iterate.",
+            "Collect reactions from sales, social, and product in one place before launch."
+          ]
+        }
+      },
+      "demos": {
+        "title": "Ready-to-run story starters",
+        "description": "Adjust these prompts, voice notes, and framing ideas to match your brand in minutes.",
+        "demo-1": {
+          "title": "Product teaser",
+          "prompt": "Prompt: 'Macro shots of a cobalt smart speaker rotating on a glass pedestal, dynamic typography announcing \"Powered by Wan2.5\".'",
+          "note": "Pair with bilingual voiceover for launch emails."
         },
-        "item-6": {
-          "title": "Google PaLM",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        "demo-2": {
+          "title": "Learning bite",
+          "prompt": "Prompt: 'Warm classroom light over a tablet, teacher guiding students through three animated steps with captions.'",
+          "note": "Use gentle acoustic audio and call-to-action overlays."
+        },
+        "demo-3": {
+          "title": "Virtual host intro",
+          "prompt": "Prompt: 'Energetic host in a minimalist studio welcomes viewers to the Wan2.5 community livestream, camera dollying around them.'",
+          "note": "Swap voices for each language version in seconds."
+        },
+        "demo-4": {
+          "title": "Travel microfilm",
+          "prompt": "Prompt: 'Golden-hour aerials of Shanghai's skyline transitioning into street-level slow motion with handheld camera moves.'",
+          "note": "Blend ASMR ambience with soft lo-fi beats for reels."
         }
       }
     },
-    "integration2": {
-      "title": "Integrate with your favorite tools",
-      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
-      "primaryButton": "Get Started",
-      "secondaryButton": "See Demo"
-    },
-    "features": {
-      "title": "Features",
-      "subtitle": "The features of your product",
-      "description": "Write the description of your product here",
+    "integration": {
+      "title": "Wan2.5 in a snapshot",
+      "subtitle": "Key highlights for creators",
+      "description": "Preview what you can expect when Wan2.5 powers your next video drop.",
+      "learnMore": "Discover",
       "items": {
         "item-1": {
-          "title": "Product Feature One",
-          "description": "Please write the detailed description of feature one here, make it as detailed as possible, make it more attractive to users"
+          "title": "Cinematic detail",
+          "description": "Generate 10-second clips in 1080p at 24 fps with stable motion, dynamic lighting, and crisp typography."
         },
         "item-2": {
-          "title": "Product Feature Two",
-          "description": "Please write the detailed description of feature two here, make it as detailed as possible, make it more attractive to users"
+          "title": "Native sound design",
+          "description": "Let Wan2.5 craft realistic dialogue, ambience, and music or upload your own track for perfect sync."
         },
         "item-3": {
-          "title": "Product Feature Three",
-          "description": "Please write the detailed description of feature three here, make it as detailed as possible, make it more attractive to users"
+          "title": "Creative control",
+          "description": "Direct the scene with camera paths, transitions, and on-screen text while keeping prompt extend available."
         },
         "item-4": {
-          "title": "Product Feature Four",
-          "description": "Please write the detailed description of feature four here, make it as detailed as possible, make it more attractive to users"
+          "title": "Global-ready",
+          "description": "Produce multilingual voiceovers and subtitles so each region gets a version that feels native."
+        }
+      }
+    },
+    "features": {
+      "title": "Use cases we see every day",
+      "subtitle": "Bring Wan2.5 into your workflow",
+      "description": "Select a scenario to see recommended prompts, pacing, and delivery ideas.",
+      "items": {
+        "item-1": {
+          "title": "Launch campaigns",
+          "description": "Script narrated hero shots, UI flythroughs, and motion graphics for product announcements, ad landers, and crowdfunding pitches."
+        },
+        "item-2": {
+          "title": "Teach and onboard",
+          "description": "Turn dry documentation into short explainers with chaptered captions, personable hosts, and looping background beds."
+        },
+        "item-3": {
+          "title": "Short-form storytelling",
+          "description": "Design episodic shorts, behind-the-scenes logs, or quick social edits with consistent characters and pacing."
+        },
+        "item-4": {
+          "title": "Virtual hosts and livestream wraps",
+          "description": "Stand up AI presenters that greet viewers, summarize events, or tease upcoming broadcasts with energy."
         }
       }
     },
     "features2": {
-      "title": "Features2",
-      "subtitle": "The features of your product",
-      "description": "Write the description of your product here",
-      "feature-1": "Product Feature One",
-      "feature-2": "Product Feature Two",
-      "feature-3": "Product Feature Three",
-      "feature-4": "Product Feature Four"
+      "title": "Workflow blueprint",
+      "subtitle": "From idea to shareable video",
+      "description": "Keep your pipeline simple while the public release is on the way.",
+      "highlight": "Design once, publish everywhere",
+      "supporting": "Wan2.5 handles visuals, sound, and tempo so you can stay focused on storytelling.",
+      "feature-1": "Start with a hook, tone reference, and target channel.",
+      "feature-2": "Drop in brand assets or hero imagery to keep consistency.",
+      "feature-3": "Decide between native audio or your uploaded track for each version.",
+      "feature-4": "Export in platform-ready ratios and archive every render in one library."
     },
     "features3": {
-      "title": "Features3",
-      "subtitle": "The features of your product",
-      "description": "Write the description of your product here",
+      "title": "Why creators choose Wan2.5",
+      "subtitle": "Built for ambitious storytellers",
+      "description": "The preview packs the essentials you need for cinematic storytelling without a studio crew.",
       "items": {
         "item-1": {
-          "title": "Product Feature One",
-          "description": "Please write the detailed description of feature one here"
+          "title": "1080p clarity",
+          "description": "Render crisp footage with natural motion blur and dependable camera moves."
         },
         "item-2": {
-          "title": "Product Feature Two",
-          "description": "Please write the detailed description of feature two here"
+          "title": "Voices that feel human",
+          "description": "Choose from multilingual voices or upload your own narrator for perfect lip-sync."
         },
         "item-3": {
-          "title": "Product Feature Three",
-          "description": "Please write the detailed description of feature three here"
+          "title": "Prompt extend on demand",
+          "description": "Let Wan2.5 refine your script or lock it down for precise messaging per frame."
         },
         "item-4": {
-          "title": "Product Feature Four",
-          "description": "Please write the detailed description of feature four here"
+          "title": "Fast iteration",
+          "description": "Queue fresh takes in minutes and keep multiple creative directions moving."
         },
         "item-5": {
-          "title": "Product Feature Five",
-          "description": "Please write the detailed description of feature five here"
+          "title": "Brand-safe defaults",
+          "description": "Toggle watermarks, control typography, and export compliance notes for reviewers."
         },
         "item-6": {
-          "title": "Product Feature Six",
-          "description": "Please write the detailed description of feature six here"
+          "title": "Growing ecosystem",
+          "description": "Tap into community prompt packs, production checklists, and upcoming API tooling."
+        }
+      }
+    },
+    "api": {
+      "eyebrow": "Get ready",
+      "title": "Try the Wan2.5 preview today",
+      "description": "Start with our demos, then step into the community to secure early access.",
+      "steps": {
+        "step-1": {
+          "title": "Watch the launch recap",
+          "description": "See the model's audio-visual sync and sample clips in less than five minutes.",
+          "cta": "Play the stream",
+          "href": "https://www.youtube.com/watch?v=hyRFWDEX_EA"
+        },
+        "step-2": {
+          "title": "Experiment with prompts",
+          "description": "Adapt the story starters above, remix voices, and note what resonates with your brand.",
+          "cta": "Open the prompt lab",
+          "href": "/#specs"
+        },
+        "step-3": {
+          "title": "Join the creator waitlist",
+          "description": "Reserve your spot for the hosted experience and be first in line when the API opens.",
+          "cta": "Request early access",
+          "href": "https://wan-25.video/community"
+        },
+        "step-4": {
+          "title": "Share your use cases",
+          "description": "Tell us the industries, volume, and integrations you care about so we can prioritise the right tools.",
+          "cta": "Send feedback",
+          "href": "mailto:editors@wan-25.video"
+        }
+      },
+      "video": {
+        "title": "Wan2.5 preview walkthrough",
+        "description": "Highlights from the official livestream covering audio cues, motion fidelity, and roadmap."
+      },
+      "resources": {
+        "title": "Creator resources",
+        "description": "Bookmark these links to stay ahead of product updates and tutorials.",
+        "resource-1": {
+          "title": "Community hub",
+          "description": "Chat with early adopters, share prompts, and see real render examples every day.",
+          "cta": "Join the Discord",
+          "href": "https://wan-25.video/community"
+        },
+        "resource-2": {
+          "title": "Product brief",
+          "description": "Download a one-pager that explains Wan2.5 to teammates and clients.",
+          "cta": "Grab the PDF",
+          "href": "https://wan-25.video/briefings"
+        },
+        "resource-3": {
+          "title": "Media kit",
+          "description": "Logos, brand colours, and usage guidelines for press or partners.",
+          "cta": "View the assets",
+          "href": "https://wan-25.video/press"
+        }
+      }
+    },
+    "insights": {
+      "eyebrow": "Creator playbook",
+      "title": "What to keep in mind while you pilot Wan2.5",
+      "description": "Tips collected from internal teams, early adopters, and partner studios.",
+      "items": {
+        "card-1": {
+          "title": "Before you prompt",
+          "bullets": [
+            "Gather 2-3 visual references so the model understands palette and mood.",
+            "Write dialogue in the language you need, then mark emphasis with capitalised words.",
+            "Plan your CTA overlays ahead of time to leave room for text-safe zones."
+          ]
+        },
+        "card-2": {
+          "title": "During generation",
+          "bullets": [
+            "Queue multiple variations at once to compare motion and vocal energy.",
+            "Log revised prompts after each run so you can reuse winning phrasing.",
+            "Preview audio through headphones—the mix can shift on mobile speakers."
+          ]
+        },
+        "card-3": {
+          "title": "After delivery",
+          "bullets": [
+            "Trim clips to platform length and add subtitles for accessibility.",
+            "Publish both watermark and clean versions to cover teaser and paid usage.",
+            "Collect analytics from each channel and feed learnings back into your prompts."
+          ]
+        }
+      }
+    },
+    "integration2": {
+      "title": "Coming soon to Wan2.5",
+      "description": "We are polishing the hosted experience while preparing advanced tooling for launch.",
+      "primaryButton": "Get early access",
+      "primaryLinkHref": "https://wan-25.video/community",
+      "secondaryButton": "Share requirements",
+      "secondaryLinkHref": "mailto:editors@wan-25.video",
+      "footnote": "Roadmap items may shift based on feedback from the creator waitlist.",
+      "items": {
+        "item-1": {
+          "title": "Interactive editor",
+          "description": "Scrub through frames, adjust scenes, and punch in subtitles without leaving the browser.",
+          "tag": "Coming soon"
+        },
+        "item-2": {
+          "title": "Batch storytelling",
+          "description": "Upload a prompt pack or spreadsheet to generate series-based content for campaigns.",
+          "tag": "Roadmap"
+        },
+        "item-3": {
+          "title": "Creator API and SDK",
+          "description": "Automate renders, manage audio uploads, and plug Wan2.5 into your workflow tools.",
+          "tag": "Developer beta"
+        },
+        "item-4": {
+          "title": "Brand safety toolkit",
+          "description": "Centralise watermark settings, rights management, and review approvals in one dashboard.",
+          "tag": "In research"
         }
       }
     },
     "pricing": {
-      "title": "Pricing",
-      "subtitle": "Pricing",
-      "description": "Choose the plan that works best for you"
+      "subtitle": "Access options",
+      "description": "Pick the path that aligns with your production goals and team size.",
+      "plans": {
+        "plan-1": {
+          "label": "For curious creators",
+          "title": "Preview playground",
+          "description": "Small batch renders, curated prompts, and community office hours.",
+          "price": "Limited slots · free",
+          "features": [
+            "Hosted experience with ready-made templates",
+            "Weekly prompt drops and behind-the-scenes breakdowns",
+            "Community feedback channel with the Wan2.5 team"
+          ],
+          "cta": "Request invite",
+          "href": "https://wan-25.video/community",
+          "featured": false
+        },
+        "plan-2": {
+          "label": "For content teams",
+          "title": "Creator program",
+          "description": "Higher render volumes, collaborative libraries, and priority support.",
+          "price": "From $49/mo (est.)",
+          "features": [
+            "Shared workspaces for brands and agencies",
+            "Scheduled exports for social and product launches",
+            "Early access to upcoming editing tools"
+          ],
+          "cta": "Join priority list",
+          "href": "https://wan-25.video/briefings",
+          "featured": true
+        },
+        "plan-3": {
+          "label": "For studios and enterprises",
+          "title": "Studio partnership",
+          "description": "Custom integrations, governance, and co-marketing opportunities.",
+          "price": "Custom engagement",
+          "features": [
+            "Dedicated success manager and technical onboarding",
+            "Private prompt tuning sessions and strategy workshops",
+            "Option to integrate with internal DAM or CMS"
+          ],
+          "cta": "Book a call",
+          "href": "mailto:editors@wan-25.video",
+          "featured": false
+        }
+      },
+      "notes": {
+        "title": "What to expect next",
+        "description": "We are working closely with Alibaba Cloud to finalise public pricing.",
+        "items": [
+          "Preview pricing may differ by region once the full API launches.",
+          "Early adopters receive migration guidance when tiers go live.",
+          "Enterprise pilots can bundle Wan2.5 with other Model Studio services."
+        ]
+      }
     },
     "faqs": {
-      "title": "FAQ",
-      "subtitle": "Frequently Asked Questions",
+      "title": "Frequently asked questions",
+      "subtitle": "Answers for teams exploring Wan2.5",
       "items": {
         "item-1": {
-          "question": "Do you offer a free trial?",
-          "answer": "Yes, we offer a 7-day free trial."
+          "question": "How can I try Wan2.5 right now?",
+          "answer": "Join the creator waitlist and we will onboard you to the hosted preview with guided prompts and support."
         },
         "item-2": {
-          "question": "How do I cancel my subscription?",
-          "answer": "You can cancel your subscription by visiting the billing page."
+          "question": "Do the videos include audio?",
+          "answer": "Yes. Wan2.5 can auto-generate dialogue, ambience, and music, or you can upload MP3/WAV tracks to keep your brand voice."
         },
         "item-3": {
-          "question": "Can I change my plan?",
-          "answer": "Yes, you can change your plan at any time by visiting the billing page."
+          "question": "What are the current limitations?",
+          "answer": "Clips are limited to 10 seconds at 24 fps and the preview focuses on storytelling, not motion transfer or replacement."
         },
         "item-4": {
-          "question": "What is the refund policy?",
-          "answer": "We offer a 30-day money-back guarantee if you are not happy with our product."
+          "question": "Can I publish the videos commercially?",
+          "answer": "Yes, but review your region's usage policy and respect any watermark or rights requirements tied to the preview."
         },
         "item-5": {
-          "question": "Can't find what you're looking for?",
-          "answer": "Please contact our customer support team at support@mksaas.com"
-        }
-      }
-    },
-    "testimonials": {
-      "title": "Testimonials",
-      "subtitle": "What our customers are saying",
-      "items": {
-        "item-1": {
-          "name": "Jonathan Yombo",
-          "role": "Software Engineer",
-          "image": "https://randomuser.me/api/portraits/men/1.jpg",
-          "quote": "MkSaaS is really extraordinary and very practical, no need to break your head. A real gold mine."
-        },
-        "item-2": {
-          "name": "Yves Kalume",
-          "role": "GDE - Android",
-          "image": "https://randomuser.me/api/portraits/men/6.jpg",
-          "quote": "With no experience in webdesign I just redesigned my entire website in a few minutes with tailwindcss thanks to MkSaaS."
-        },
-        "item-3": {
-          "name": "Yucel Faruksahan",
-          "role": "Tailkits Creator",
-          "image": "https://randomuser.me/api/portraits/men/7.jpg",
-          "quote": "Great work on MkSaaS template. This is one of the best personal website that I have seen so far :)"
-        },
-        "item-4": {
-          "name": "Anonymous author",
-          "role": "Product Manager",
-          "image": "https://randomuser.me/api/portraits/men/8.jpg",
-          "quote": "I downloaded the one of MkSaaS template which is very clear to understand at the start and you could modify the codes/blocks to fit perfectly on your purpose of the page."
-        },
-        "item-5": {
-          "name": "Shekinah Tshiokufila",
-          "role": "Senior Software Engineer",
-          "image": "https://randomuser.me/api/portraits/men/4.jpg",
-          "quote": "MkSaaS is redefining the standard of web design, with these blocks it provides an easy and efficient way for those who love beauty but may lack the time to implement it."
-        },
-        "item-6": {
-          "name": "Oketa Fred",
-          "role": "Fullstack Developer",
-          "image": "https://randomuser.me/api/portraits/men/2.jpg",
-          "quote": "I absolutely love MkSaaS! The component blocks are beautifully designed and easy to use, which makes creating a great-looking website a breeze."
-        },
-        "item-7": {
-          "name": "Zeki",
-          "role": "Founder of ChatExtend",
-          "image": "https://randomuser.me/api/portraits/men/5.jpg",
-          "quote": "MkSaaS is the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly."
-        },
-        "item-8": {
-          "name": "Joseph Kitheka",
-          "role": "Fullstack Developer",
-          "image": "https://randomuser.me/api/portraits/men/9.jpg",
-          "quote": "MkSaaS has transformed the way I develop web applications. Their extensive collection of UI components, blocks, and templates has significantly accelerated my workflow."
-        },
-        "item-9": {
-          "name": "Khatab Wedaa",
-          "role": "MerakiUI Creator",
-          "image": "https://randomuser.me/api/portraits/men/10.jpg",
-          "quote": "MkSaaS is an elegant, clean, and responsive tailwind css components it's very helpful to start fast with your project."
-        },
-        "item-10": {
-          "name": "Rodrigo Aguilar",
-          "role": "TailwindAwesome Creator",
-          "image": "https://randomuser.me/api/portraits/men/11.jpg",
-          "quote": "I love MkSaaS ❤️. The component blocks are well-structured, simple to use, and beautifully designed. It makes it really easy to have a good-looking website in no time."
-        },
-        "item-11": {
-          "name": "Eric Ampire",
-          "role": "@GoogleDevExpert for Android",
-          "image": "https://randomuser.me/api/portraits/men/12.jpg",
-          "quote": "MkSaaS templates are the perfect solution for anyone who wants to create a beautiful and functional website without any web design experience."
-        },
-        "item-12": {
-          "name": "Roland Tubonge",
-          "role": "Software Engineer",
-          "image": "https://randomuser.me/api/portraits/men/13.jpg",
-          "quote": "MkSaaS is so well designed that even with a very poor knowledge of web design you can do miracles. Let yourself be seduced!"
-        }
-      }
-    },
-    "stats": {
-      "title": "Stats",
-      "subtitle": "MkSaaS in numbers",
-      "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly",
-      "items": {
-        "item-1": {
-          "title": "Stars on GitHub"
-        },
-        "item-2": {
-          "title": "Active Users"
-        },
-        "item-3": {
-          "title": "Powered Apps"
+          "question": "Where do I get help?",
+          "answer": "Email editors@wan-25.video or ask in the community hub for prompt feedback, roadmap questions, and support."
         }
       }
     },
     "calltoaction": {
-      "title": "Start Building",
-      "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly",
-      "primaryButton": "Get Started",
-      "secondaryButton": "See Demo"
+      "title": "Bring Wan2.5 to your next launch",
+      "description": "Join thousands of creators shaping the future of AI-native video storytelling.",
+      "primaryButton": "Join the waitlist",
+      "secondaryButton": "Watch the demo",
+      "primaryHref": "/#coming-soon",
+      "secondaryHref": "/#video-demo",
+      "officialLabel": "Official Wan2.5 portals",
+      "officialLinks": {
+        "zaodian": "Zaodian Wanxiang Studio",
+        "tongyi": "Tongyi Wan generator"
+      },
+      "disclaimer": "wan-2.5.video is an independent third-party model service and is not affiliated with Alibaba Cloud or the Wan2.5 official team."
+    },
+    "stats": {
+      "title": "Wan2.5 preview momentum",
+      "subtitle": "Early signals from the community",
+      "description": "Snapshot from September 2025; numbers refresh each month.",
+      "items": {
+        "item-1": {
+          "title": "Creators already on the Wan2.5 waitlist"
+        },
+        "item-2": {
+          "title": "Preview frames rendered across internal sprints"
+        },
+        "item-3": {
+          "title": "Brands and studios sharing use cases"
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Loved by early storytellers",
+      "subtitle": "Feedback from the Wan2.5 preview cohort",
+      "items": {
+        "item-1": {
+          "name": "Lina Zheng",
+          "role": "Creative Director, Tidewave Studio",
+          "image": "https://randomuser.me/api/portraits/women/11.jpg",
+          "quote": "Wan2.5 let us storyboard a product launch with cinematic motion and native voiceover in a single afternoon."
+        },
+        "item-2": {
+          "name": "Marcus Lee",
+          "role": "Founder, Loop Labs",
+          "image": "https://randomuser.me/api/portraits/men/32.jpg",
+          "quote": "My team swapped between English and Cantonese voices without re-recording—clients were floored."
+        },
+        "item-3": {
+          "name": "Aisha Rahman",
+          "role": "Video Lead, BrightPath Education",
+          "image": "https://randomuser.me/api/portraits/women/47.jpg",
+          "quote": "Instructional clips feel alive thanks to Wan2.5's pacing and the way it handles chalkboard text."
+        },
+        "item-4": {
+          "name": "Diego Martínez",
+          "role": "Producer, Nueva Ola Agency",
+          "image": "https://randomuser.me/api/portraits/men/78.jpg",
+          "quote": "The preview nails handheld camera vibes—we cut a social series without touching a physical camera."
+        },
+        "item-5": {
+          "name": "Harper Collins",
+          "role": "Content Strategist, Neon Verse",
+          "image": "https://randomuser.me/api/portraits/women/65.jpg",
+          "quote": "Prompt extend helps polish scripts while still respecting our brand vocabulary."
+        },
+        "item-6": {
+          "name": "Ravi Kulkarni",
+          "role": "Head of Product Marketing, FluxGear",
+          "image": "https://randomuser.me/api/portraits/men/83.jpg",
+          "quote": "We finally have synchronized product shots and narration ready for global rollouts."
+        },
+        "item-7": {
+          "name": "Sofia Marin",
+          "role": "Community Builder, Creator Forge",
+          "image": "https://randomuser.me/api/portraits/women/29.jpg",
+          "quote": "Our members share Wan2.5 prompts daily—the iteration speed keeps everyone experimenting."
+        },
+        "item-8": {
+          "name": "Noah Walker",
+          "role": "Independent Filmmaker",
+          "image": "https://randomuser.me/api/portraits/men/45.jpg",
+          "quote": "I prototyped a web series pilot with Wan2.5 and locked tone before hiring any talent."
+        },
+        "item-9": {
+          "name": "Emily Zhao",
+          "role": "CX Lead, Aurora Commerce",
+          "image": "https://randomuser.me/api/portraits/women/23.jpg",
+          "quote": "Customer support videos now feel like brand films—audio clarity makes all the difference."
+        },
+        "item-10": {
+          "name": "Jonah Briggs",
+          "role": "Studio Manager, Signal & Noise",
+          "image": "https://randomuser.me/api/portraits/men/58.jpg",
+          "quote": "Batch rendering upcoming campaigns is painless; we treat Wan2.5 as another editor on the team."
+        },
+        "item-11": {
+          "name": "Priya Mehta",
+          "role": "CEO, Storyseed Asia",
+          "image": "https://randomuser.me/api/portraits/women/12.jpg",
+          "quote": "Investors saw our Wan2.5 demos and immediately wanted the commercial rights."
+        },
+        "item-12": {
+          "name": "Gabe Hudson",
+          "role": "Lead Designer, Orbit XR",
+          "image": "https://randomuser.me/api/portraits/men/14.jpg",
+          "quote": "Cinematic camera paths plus native audio gave our AR showcase the polish it needed."
+        }
+      }
     }
   },
   "AITextPage": {
@@ -1080,28 +1321,28 @@
     }
   },
   "AIImagePage": {
-    "title": "AI Image",
-    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+    "title": "WAN Image Tools",
+    "description": "Track WAN 2.x image generation updates alongside video."
   },
   "AIChatPage": {
-    "title": "AI Chat",
-    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+    "title": "WAN Chat Ops",
+    "description": "Log prompts, task IDs, and retries from one command center."
   },
   "AIVideoPage": {
-    "title": "AI Video",
-    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+    "title": "WAN Video Ops",
+    "description": "Manage Wan 2.5 tasks, audio assets, and delivery pipelines."
   },
   "AIAudioPage": {
-    "title": "AI Audio",
-    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+    "title": "WAN Audio Guidance",
+    "description": "Upload-ready tips for MP3/WAV assets and automatic dubbing."
   },
   "SettingsNotificationsPage": {
     "disabledMessage": "Notifications are currently disabled."
   },
   "AIImagePlayground": {
     "upload": {
-      "title": "Upload a reference image",
-      "subtitle": "Supported formats: JPG, PNG, WEBP. File size must be under 12MB.",
+      "title": "Upload a reference frame",
+      "subtitle": "Supported formats: JPG, PNG, WEBP. File size under 12 MB.",
       "button": "Choose image",
       "hint": "You can also drag and drop an image into this area.",
       "invalidType": "Please select an image file.",
@@ -1120,11 +1361,11 @@
     },
     "actions": {
       "generate": "Generate image",
-      "generating": "Generating…",
+      "generating": "Generating...",
       "clear": "Clear result"
     },
     "status": {
-      "uploaded": "Image uploaded — reuse it anytime"
+      "uploaded": "Frame uploaded - reuse it anytime"
     },
     "result": {
       "title": "Generated image",

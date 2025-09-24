@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { HeaderSection } from '@/components/layout/header-section';
 import { BorderBeam } from '@/components/magicui/border-beam';
@@ -9,10 +9,10 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion';
 import {
-  ChartBarIncreasingIcon,
-  Database,
-  Fingerprint,
-  IdCard,
+  Clapperboard,
+  GraduationCap,
+  Megaphone,
+  Mic2,
 } from 'lucide-react';
 import { AnimatePresence, motion } from 'motion/react';
 import { useTranslations } from 'next-intl';
@@ -32,28 +32,27 @@ export default function FeaturesSection() {
     'item-1': {
       image: '/blocks/charts-light.png',
       darkImage: '/blocks/charts.png',
-      alt: 'Product Feature One',
+      alt: 'Campaign storyboard example',
     },
     'item-2': {
       image: '/blocks/music-light.png',
       darkImage: '/blocks/music.png',
-      alt: 'Product Feature Two',
+      alt: 'Educational explainers example',
     },
     'item-3': {
       image: '/blocks/mail2-light.png',
       darkImage: '/blocks/mail2.png',
-      alt: 'Product Feature Three',
+      alt: 'Short drama shotlist example',
     },
     'item-4': {
       image: '/blocks/payments-light.png',
       darkImage: '/blocks/payments.png',
-      alt: 'Product Feature Four',
+      alt: 'Virtual host automation example',
     },
   };
 
   return (
-    <section id="features" className="px-4 py-16">
-      {/* <div className="bg-linear-to-b absolute inset-0 -z-10 sm:inset-6 sm:rounded-b-3xl dark:block dark:to-[color-mix(in_oklab,var(--color-zinc-900)_75%,var(--color-background))]" /> */}
+    <section id="use-cases" className="px-4 py-16">
       <div className="mx-auto max-w-6xl space-y-8 lg:space-y-20 dark:[--color-border:color-mix(in_oklab,var(--color-white)_10%,transparent)]">
         <HeaderSection
           title={t('title')}
@@ -67,7 +66,7 @@ export default function FeaturesSection() {
           <div className="lg:col-span-5 flex flex-col gap-8">
             <div className="lg:pr-0 text-left">
               <h3 className="text-3xl font-semibold lg:text-4xl text-foreground leading-normal py-1">
-                {t('title')}
+                {t('subtitle')}
               </h3>
               <p className="mt-4 text-muted-foreground">{t('description')}</p>
             </div>
@@ -80,7 +79,7 @@ export default function FeaturesSection() {
               <AccordionItem value="item-1">
                 <AccordionTrigger>
                   <div className="flex items-center gap-2 text-base">
-                    <Database className="size-4" />
+                    <Megaphone className="size-4" />
                     {t('items.item-1.title')}
                   </div>
                 </AccordionTrigger>
@@ -91,7 +90,7 @@ export default function FeaturesSection() {
               <AccordionItem value="item-2">
                 <AccordionTrigger>
                   <div className="flex items-center gap-2 text-base">
-                    <Fingerprint className="size-4" />
+                    <GraduationCap className="size-4" />
                     {t('items.item-2.title')}
                   </div>
                 </AccordionTrigger>
@@ -102,7 +101,7 @@ export default function FeaturesSection() {
               <AccordionItem value="item-3">
                 <AccordionTrigger>
                   <div className="flex items-center gap-2 text-base">
-                    <IdCard className="size-4" />
+                    <Clapperboard className="size-4" />
                     {t('items.item-3.title')}
                   </div>
                 </AccordionTrigger>
@@ -113,7 +112,7 @@ export default function FeaturesSection() {
               <AccordionItem value="item-4">
                 <AccordionTrigger>
                   <div className="flex items-center gap-2 text-base">
-                    <ChartBarIncreasingIcon className="size-4" />
+                    <Mic2 className="size-4" />
                     {t('items.item-4.title')}
                   </div>
                 </AccordionTrigger>
@@ -163,3 +162,4 @@ export default function FeaturesSection() {
     </section>
   );
 }
+

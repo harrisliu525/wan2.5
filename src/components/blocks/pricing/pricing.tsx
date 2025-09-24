@@ -1,5 +1,5 @@
-import { HeaderSection } from '@/components/layout/header-section';
-import { PricingTable } from '@/components/pricing/pricing-table';
+﻿import { HeaderSection } from '@/components/layout/header-section';
+import { WanPricingTable } from '@/components/wan/wan-pricing-table';
 import { useTranslations } from 'next-intl';
 
 export default function PricingSection() {
@@ -16,7 +16,7 @@ export default function PricingSection() {
           descriptionAs="p"
         />
 
-        <PricingTable />
+        <WanPricingTable />
       </div>
     </section>
   );

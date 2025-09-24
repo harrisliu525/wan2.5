@@ -1,4 +1,4 @@
-import AllPostsButton from '@/components/blog/all-posts-button';
+﻿import AllPostsButton from '@/components/blog/all-posts-button';
 import BlogGrid from '@/components/blog/blog-grid';
 import { getMDXComponents } from '@/components/docs/mdx-components';
 import { PremiumBadge } from '@/components/premium/premium-badge';
@@ -242,8 +242,7 @@ export default async function BlogPostPage(props: BlogPostPageProps) {
       )}
 
       {/* newsletter */}
-      <div className="flex items-center justify-start my-8">
-      </div>
+      <div className="flex items-center justify-start my-8" />
     </div>
   );
 }

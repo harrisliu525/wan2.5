@@ -10,8 +10,8 @@ import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
 import { HomeIcon } from 'lucide-react';
 import type { Locale } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
-import type { ReactNode } from 'react';
 import { notFound } from 'next/navigation';
+import type { ReactNode } from 'react';
 
 import '@/styles/mdx.css';
 

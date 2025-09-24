@@ -1,9 +1,9 @@
-'use client';
+﻿'use client';
 
 import Container from '@/components/layout/container';
 import { Logo } from '@/components/layout/logo';
 import { ModeSwitcherHorizontal } from '@/components/layout/mode-switcher-horizontal';
-import BuiltWithButton from '@/components/shared/built-with-button';
+import { BuiltWithButton } from '@/components/shared/built-with-button';
 import { useFooterLinks } from '@/config/footer-config';
 import { LocaleLink } from '@/i18n/navigation';
 import { cn } from '@/lib/utils';

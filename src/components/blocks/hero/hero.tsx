@@ -1,4 +1,4 @@
-import { Ripple } from '@/components/magicui/ripple';
+﻿import { Ripple } from '@/components/magicui/ripple';
 import { AnimatedGroup } from '@/components/tailark/motion/animated-group';
 import { TextEffect } from '@/components/tailark/motion/text-effect';
 import { Button } from '@/components/ui/button';
@@ -29,9 +29,9 @@ const transitionVariants = {
 
 export default function HeroSection() {
   const t = useTranslations('HomePage.hero');
-  const linkIntroduction = 'https://x.com/mksaascom';
-  const linkPrimary = '/#pricing';
-  const linkSecondary = 'https://demo.mksaas.com';
+  const linkIntroduction = 'https://wan.video/';
+  const linkPrimary = '/#coming-soon';
+  const linkSecondary = '/#video-demo';
 
   return (
     <>
@@ -185,3 +185,4 @@ export default function HeroSection() {
     </>
   );
 }
+

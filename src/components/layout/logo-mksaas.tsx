@@ -1,15 +1,14 @@
-import { cn } from '@/lib/utils';
-import Image from 'next/image';
+﻿import { cn } from '@/lib/utils';
 
-export function MkSaaSLogo({ className }: { className?: string }) {
+export function WanBadge({ className }: { className?: string }) {
   return (
-    <Image
-      src="/mksaas.png"
-      alt="Logo of MkSaaS"
-      title="Logo of MkSaaS"
-      width={96}
-      height={96}
-      className={cn('size-8 rounded-md', className)}
-    />
+    <span
+      className={cn(
+        'inline-flex items-center justify-center rounded-md border border-primary/40 bg-primary/10 px-2 py-1 text-xs font-semibold uppercase tracking-widest text-primary',
+        className
+      )}
+    >
+      WAN 2.5
+    </span>
   );
 }

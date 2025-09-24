@@ -1,9 +1,9 @@
-import { HeaderSection } from '@/components/layout/header-section';
+﻿import { HeaderSection } from '@/components/layout/header-section';
 import {
-  ActivityIcon,
-  DraftingCompassIcon,
-  MailIcon,
-  ZapIcon,
+  Image as ImageIcon,
+  Lightbulb,
+  Sparkles,
+  AudioWaveform,
 } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
@@ -16,7 +16,7 @@ export default function Features2Section() {
   const t = useTranslations('HomePage.features2');
 
   return (
-    <section id="features2" className="px-4 py-16">
+    <section id="workflow" className="px-4 py-16">
       <div className="mx-auto max-w-6xl space-y-8 lg:space-y-20">
         <HeaderSection
           title={t('title')}
@@ -29,25 +29,25 @@ export default function Features2Section() {
         <div className="grid items-center gap-12 lg:grid-cols-5 lg:gap-24">
           <div className="lg:col-span-2">
             <div className="lg:pr-0">
-              <h2 className="text-4xl font-semibold">{t('title')}</h2>
-              <p className="mt-6">{t('description')}</p>
+              <h2 className="text-4xl font-semibold">{t('highlight')}</h2>
+              <p className="mt-6">{t('supporting')}</p>
             </div>
 
             <ul className="mt-8 divide-y border-y *:flex *:items-center *:gap-3 *:py-3">
               <li>
-                <MailIcon className="size-5" />
+                <Lightbulb className="size-5" />
                 {t('feature-1')}
               </li>
               <li>
-                <ZapIcon className="size-5" />
+                <ImageIcon className="size-5" />
                 {t('feature-2')}
               </li>
               <li>
-                <ActivityIcon className="size-5" />
+                <AudioWaveform className="size-5" />
                 {t('feature-3')}
               </li>
               <li>
-                <DraftingCompassIcon className="size-5" />
+                <Sparkles className="size-5" />
                 {t('feature-4')}
               </li>
             </ul>
@@ -58,14 +58,14 @@ export default function Features2Section() {
               <Image
                 src="/blocks/dark-card.webp"
                 className="hidden rounded-[15px] dark:block"
-                alt="card illustration dark"
+                alt="wan2.5 workflow illustration in dark mode"
                 width={1207}
                 height={929}
               />
               <Image
                 src="/blocks/card.png"
                 className="rounded-[15px] shadow dark:hidden"
-                alt="card illustration light"
+                alt="wan2.5 workflow illustration"
                 width={1207}
                 height={929}
               />

@@ -1,23 +1,19 @@
-import { MkSaaSLogo } from '@/components/layout/logo-mksaas';
-import { buttonVariants } from '@/components/ui/button';
-import { cn } from '@/lib/utils';
-import Link from 'next/link';
+﻿import { WanBadge } from '@/components/layout/logo-mksaas';
+import { Button } from '@/components/ui/button';
+import { Routes } from '@/routes';
+import { ArrowUpRight } from 'lucide-react';
 
-export default function BuiltWithButton() {
+export function BuiltWithButton() {
   return (
-    <Link
-      target="_blank"
-      href="https://mksaas.com?utm_source=built-with-mksaas"
-      className={cn(
-        buttonVariants({ variant: 'outline', size: 'sm' }),
-        'border border-border px-4 rounded-md'
-      )}
-    >
-      <span>Built with</span>
-      <span>
-        <MkSaaSLogo className="size-5 rounded-full" />
-      </span>
-      <span className="font-semibold">MkSaaS</span>
-    </Link>
+    <Button asChild variant="outline" size="sm" className="gap-2">
+      <a href={Routes.Docs}>
+        <WanBadge className="size-auto" />
+        <span className="font-semibold">wan-2.5.video</span>
+        <span className="text-muted-foreground text-xs">
+          wan-25.video | Specs, pricing, and field notes
+        </span>
+        <ArrowUpRight className="size-4" />
+      </a>
+    </Button>
   );
 }

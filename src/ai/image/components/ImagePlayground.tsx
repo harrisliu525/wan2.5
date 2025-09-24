@@ -61,7 +61,7 @@ export function ImagePlayground({ suggestions }: ImagePlaygroundProps) {
   }, [filePreview]);
 
   const isBusy = isUploading || isLoading;
-const previewIsOpen = Boolean(generatedImageUrl) && isPreviewOpen;
+  const previewIsOpen = Boolean(generatedImageUrl) && isPreviewOpen;
 
   const fileSignature = useMemo(() => {
     if (!file) return null;
@@ -418,4 +418,3 @@ const previewIsOpen = Boolean(generatedImageUrl) && isPreviewOpen;
     </div>
   );
 }
-

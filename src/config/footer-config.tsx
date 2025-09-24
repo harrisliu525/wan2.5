@@ -27,11 +27,6 @@ export function useFooterLinks(): NestedMenuItem[] {
           external: false,
         },
         {
-          title: t('product.items.pricing'),
-          href: Routes.Pricing,
-          external: false,
-        },
-        {
           title: t('product.items.faq'),
           href: Routes.FAQ,
           external: false,

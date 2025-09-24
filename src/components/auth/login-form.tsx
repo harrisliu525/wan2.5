@@ -165,10 +165,7 @@ export const LoginForm = ({
   };
 
   return (
-    <AuthCard
-      headerLabel={t('welcomeBack')}
-      className={cn('', className)}
-    >
+    <AuthCard headerLabel={t('welcomeBack')} className={cn('', className)}>
       {credentialLoginEnabled && (
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
